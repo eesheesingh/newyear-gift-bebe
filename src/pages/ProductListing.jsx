@@ -153,7 +153,7 @@ const ProductListing = () => {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+        <div className="grid grid-cols-1 px-6 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
           {products.map((product, index) => (
             <motion.div
               key={product.id}
