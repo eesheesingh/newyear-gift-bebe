@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
@@ -11,7 +11,7 @@ const Welcome = () => {
       setIsExiting(true);
       // Add a small delay for the exit animation to complete
       setTimeout(() => {
-        navigate('/main');
+        navigate('/home');
       }, 1000);
     }, 4000); // Reduced to 4s to accommodate exit animation
 

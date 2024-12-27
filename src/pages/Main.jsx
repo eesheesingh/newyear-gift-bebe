@@ -1,29 +1,14 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { BsShop } from "react-icons/bs";
 import Babe from "../assets/my-bebe.jpg";
-import Welcome from './Welcome';
 
 const Main = () => {
   const navigate = useNavigate();
-  const [showWelcome, setShowWelcome] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowWelcome(false);
-    }, 7000);
-
-    return () => clearTimeout(timer);
-  }, []);
 
   const handleNavigate = () => {
     navigate('/product-listing');
   };
-
-  if (showWelcome) {
-    return <Welcome />;
-  }
 
   return (
     <div className="min-h-screen flex items-center py-5">
