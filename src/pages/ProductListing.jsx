@@ -8,18 +8,20 @@ import Dior from "../assets/dior.jpg";
 import Kbeauty from "../assets/kbeauty.jpg";
 import Spehora from "../assets/sephora.jpg";
 import DotKey from "../assets/Dot-_-Key-Logo.jpg";
+import Mac from "../assets/MAC-Cosmetics-Logo.jpg";
+import Sugar from "../assets/sugarIcon.jpg";
 
 const products = [
   {
     id: 1,
-    name: "Dior",
+    name: "Chanel",
     image: Chanel,
     description: "The Brand that you always wanted to buy, and i know how you're gonna keep it safe.",
     link: "https://www.nykaa.com/luxe/brands/dior/c/15381"
   },
   {
     id: 2,
-    name: "Chanel",
+    name: "Dior",
     image: Dior,
     description: "The Brand You love and would love to buy you again if you'd like",
     link: "https://www.chanel.com/in/"
@@ -44,6 +46,20 @@ const products = [
     image: DotKey,
     description: "AnyThing You Need, You can get it from Dot & Key, Let Me Know",
     link: "https://www.nykaa.com/brands/dot-key/c/7675"
+  },
+  {
+    id: 6,
+    name: "MAC",
+    image: Mac,
+    description: "I saw one of your fav lipstick, and i know you'll love it",
+    link: "https://sephora.in/brand/mac-cosmetics?srsltid=AfmBOoogVDexbOEme5X8jHLmuruBqD1aLAsIp625SbT8SRgk4tG0IohF"
+  },
+  {
+    id: 7,
+    name: "Sugar",
+    image: Sugar,
+    description: "According to your suggestion bebe",
+    link: "https://www.sugarcosmetics.com/?srsltid=AfmBOooa9DUV3tiOBI-FPixDQi4Le7womEBUV_giQUFSa2KIUHwXTNeW"
   },
 ];
 
